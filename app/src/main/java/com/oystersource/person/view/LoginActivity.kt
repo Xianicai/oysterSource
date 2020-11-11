@@ -48,7 +48,6 @@ class LoginActivity : BaseMVPActivity<LoginPresenterImpl>(), LoginContract.Login
         return loginPresenterImpl!!
     }
 
-
     override fun onClick(v: View?) {
         when (v?.id) {
             R.id.mTvLogin -> {
