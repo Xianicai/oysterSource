@@ -1,0 +1,19 @@
+
+L
+java:S1874s"1Remove this use of "TYPE_WIFI"; it is deprecated.(„žÛ¤ýÿÿÿÿ
+R
+java:S1874m"<Remove this use of "getActiveNetworkInfo"; it is deprecated.(ÿ»¶Ã
+J
+java:S1874s"/Remove this use of "getType"; it is deprecated.(„žÛ¤ýÿÿÿÿ
+D
+java:S1874w"/Remove this use of "getType"; it is deprecated.(¡ª‚%
+f
+java:S11921"KDefine a constant instead of duplicating this literal "\nUrl   : " 4 times.( ®™Üÿÿÿÿÿ
+I
+java:S1874m"3Remove this use of "NetworkInfo"; it is deprecated.(ÿ»¶Ã
+U
+java:S47198":Replace Charset.forName() call with StandardCharsets.UTF_8(Ç©¤üÿÿÿÿ
+H
+java:S1874w"3Remove this use of "TYPE_MOBILE"; it is deprecated.(¡ª‚%
+U
+java:S4719R":Replace Charset.forName() call with StandardCharsets.UTF_8(§ˆå“øÿÿÿÿ

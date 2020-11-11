@@ -1,0 +1,13 @@
+
+P
+java:S1118":Add a private constructor to hide the implicit public one.(‹¸â¶
+Q
+java:S1854";Remove this useless assignment to local variable "mCamera".(¦û£
+I
+java:S1874".Remove this use of "Camera"; it is deprecated.(•Å¥œÿÿÿÿÿ
+I
+java:S1874".Remove this use of "Camera"; it is deprecated.(´û‹ÿÿÿÿÿ
+G
+java:S1874",Remove this use of "open"; it is deprecated.(´û‹ÿÿÿÿÿ
+E
+java:S1874"/Remove this use of "release"; it is deprecated.(É½²°

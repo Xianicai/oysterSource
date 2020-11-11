@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <TextView
+        android:id="@+id/mTvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:gravity="center_vertical" />
+
+    <EditText
+        android:id="@+id/mEdView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="12dp"
+        android:background="@null"
+        android:textColorHint="@color/color_999999"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:autofillHints="@string/app_name"
+        android:background="@color/common_background" />
+</RelativeLayout>

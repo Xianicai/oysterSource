@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_666666"
+    tools:context=".source.view.CodeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <ImageView
+            android:id="@+id/mImageBack"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_launcher" />
+
+        <com.oystersource.utils.view.KKTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="手动输入" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/mEdCode"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/white"
+        android:numeric="integer" />
+
+    <com.oystersource.utils.view.KKTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mEdCode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="请输入需要添加的编码"
+        android:textColor="@color/white" />
+
+    <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/mEdCode"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="切换扫码"
+        android:textColor="@color/white"
+        app:qmui_backgroundColor="@color/black" />
+
+    <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/mEdCode"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:text="确定"
+        android:textColor="@color/white"
+        app:qmui_backgroundColor="@color/black" />
+
+</RelativeLayout>

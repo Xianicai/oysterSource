@@ -1,0 +1,11 @@
+
+o
+java:S22936"YReplace the type specification in this constructor call with the diamond operator ("<>").(Û¹™
+o
+java:S22933"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ø‰Äô
+l
+java:S1149'"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(õ¨Ûê
+a
+java:S2142H"FEither re-interrupt this method or rethrow the "InterruptedException".(øôÔ×ûÿÿÿÿ
+{
+java:S1149,"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ğ¸Å«

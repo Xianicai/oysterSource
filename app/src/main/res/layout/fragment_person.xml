@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.oystersource.utils.view.ActionBar
+        android:id="@+id/mActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintBackImage="true"
+        app:actionTitle="个人" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <com.oystersource.utils.view.BorderView
+            android:id="@+id/mTvSurname"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            app:borderViewBackgroundColor="@color/theme_color"
+            app:borderViewRounded="true"
+            app:borderViewText="夏"
+            app:borderViewTextColor="@color/white"
+            app:borderViewTextSize="24sp" />
+
+        <com.oystersource.utils.view.KKTextView
+            android:id="@+id/mTvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/mTvSurname"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/mTvSurname"
+            android:maxLines="1"
+            android:text="尼采" />
+
+        <com.oystersource.utils.view.KKTextView
+            android:id="@+id/mLayoutQR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/mTvSurname"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/mTvSurname"
+            android:maxLines="1"
+            android:text="吃饭睡觉打豆豆" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/common_background" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="20dp">
+
+        <com.oystersource.utils.view.KKTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:maxLines="1"
+            android:text="登录账号" />
+
+        <com.oystersource.utils.view.KKTextView
+            android:id="@+id/mTvAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="100dp"
+            android:maxLines="1"
+            android:text="xianicai66666" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/common_background" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <com.oystersource.utils.view.KKTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:maxLines="1"
+            android:layout_marginLeft="20dp"
+            android:text="登录密码" />
+
+        <com.oystersource.utils.view.KKTextView
+            android:id="@+id/mTvPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="116dp"
+            android:maxLines="1"
+            android:text="******" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/common_background" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <com.oystersource.utils.view.BorderView
+        android:id="@+id/mLayoutQuit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="20dp"
+        app:borderViewBackgroundColor="@color/theme_color"
+        app:borderViewRadius="8dp"
+        app:borderViewText="退出登录"
+        app:borderViewTextColor="@color/white"
+        app:borderViewTextSize="18dp" />
+
+    <!--    <com.oystersource.utils.view.CustomTitleEditLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:layout_marginTop="300dp"-->
+    <!--        app:customEdHint="有梦想的人不睡觉"-->
+    <!--        app:customTitle="夏尼采" />-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:gravity="center"-->
+    <!--        android:text="Mine"-->
+    <!--        android:textSize="20sp" />-->
+
+</LinearLayout>

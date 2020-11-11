@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">生蚝溯源</string>
+    <string name="privacy_policy_desc">我们非常重视隐私和个人信息保护，请您先认真阅读并充分理解用户协议和隐私政策，当您点击同意，即表示您理解并同意条款内容，该条款将对您产生法律约束力。</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--qrcode-->
+    <string name="str_scan_title">扫一扫</string>
+    <string name="str_open_light">开启闪光灯</string>
+    <string name="str_close_light">关闭闪光灯</string>
+    <string name="str_scan_hint">取景框对准二维码, 即可自动扫描</string>
+</resources>

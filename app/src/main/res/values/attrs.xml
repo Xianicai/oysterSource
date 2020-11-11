@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GlideImageView">
+        <attr name="placeholderImage" format="reference"></attr>
+    </declare-styleable>
+    <declare-styleable name="BorderView">
+        <attr name="borderViewStrokeColor" format="color|reference" />
+        <attr name="borderViewStrokeWidth" format="dimension|reference" />
+        <attr name="borderViewRadius" format="dimension|reference" />
+        <attr name="borderViewStrokePadding" format="dimension|reference" />
+        <attr name="borderViewBackgroundColor" format="color|reference" />
+        <attr name="borderViewRounded" format="boolean" />
+        <attr name="borderViewText" format="string|reference" />
+        <attr name="borderViewTextColor" format="color|reference" />
+        <attr name="borderViewTextSize" format="dimension|reference" />
+        <attr name="borderViewStrokeSelectedColor" format="color|reference" />
+        <attr name="borderViewBackgroundSelectedColor" format="color|reference" />
+        <attr name="borderViewTextSelectedColor" format="color|reference" />
+    </declare-styleable>
+    <declare-styleable name="ActionBar">
+        <attr name="actionTitle" format="string|reference" />
+        <attr name="hintBackImage" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CustomTitleEditLayout">
+        <attr name="customTitle" format="string|reference" />
+        <attr name="customEdHint" format="string|reference" />
+    </declare-styleable>
+
+    <!--corner_color 边角颜色，
+     scanner_color 扫描线颜色
+     possible_result_color 扫描点颜色
+     frame_color 扫描框边线颜色
+     mask_color 模糊区域颜色
+     label_text  框上方提示
+ -->
+    <declare-styleable name="ViewfinderView">
+        <attr name="corner_color" format="color"/>
+        <attr name="laser_color" format="color"/>
+        <attr name="frame_color" format="color" />
+        <attr name="mask_color" format="color" />
+        <attr name="result_point_color" format="color"/>
+        <attr name="result_color" format="color" />
+        <attr name="label_text_color" format="color"/>
+        <attr name="label_text" format="string"/>
+        <attr name="label_text_size" format="float"/>
+    </declare-styleable>
+</resources>

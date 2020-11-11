@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <com.oystersource.utils.view.BorderView
+        android:id="@+id/mLayoutType"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        app:borderViewRounded="true"
+        app:borderViewStrokeColor="@color/qmui_config_color_red"
+        app:borderViewStrokeWidth="3dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="7.5dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/color_999999" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="更多"
+        android:drawablePadding="5dp"
+        android:drawableRight="@mipmap/ic_arrows_right"/>
+
+    <TextView
+        android:id="@+id/mTvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="2020-10-8  (3个月)" />
+
+    <TextView
+        android:id="@+id/mTvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mTvTime"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:text="养殖" />
+
+    <TextView
+        android:id="@+id/mTvState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/mTvTitle"
+        android:layout_marginLeft="50dp"
+        android:textColor="#18AA8C"
+        android:layout_toRightOf="@+id/mTvTitle"
+        android:text="健康良好" />
+
+
+</RelativeLayout>

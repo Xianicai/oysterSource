@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.oystersource.utils.view.ActionBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:actionTitle="溯源"
+        app:hintBackImage="true" />
+
+    <com.oystersource.utils.view.BorderView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="40dp"
+        app:borderViewBackgroundColor="@color/white"
+        app:borderViewRadius="4dp"
+        app:borderViewStrokeColor="@color/color_999999">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="请输入编码"
+            android:textColor="@color/black"
+            android:textColorHint="@color/color_999999" />
+    </com.oystersource.utils.view.BorderView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp">
+
+        <com.oystersource.utils.view.BorderView
+            android:id="@+id/mLayoutQR"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            app:borderViewBackgroundColor="@color/theme_color"
+            app:borderViewRounded="true"
+            app:borderViewText="切换扫码"
+            app:borderViewTextColor="@color/white"
+            app:borderViewTextSize="16sp" />
+
+        <com.oystersource.utils.view.BorderView
+            android:id="@+id/mLayoutConfirm"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            app:borderViewBackgroundColor="@color/theme_color"
+            app:borderViewRounded="true"
+            app:borderViewText="确定"
+            app:borderViewTextColor="@color/white"
+            app:borderViewTextSize="16sp" />
+    </RelativeLayout>
+</LinearLayout>

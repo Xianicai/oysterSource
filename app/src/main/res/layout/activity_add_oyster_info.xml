@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".home.view.AddOysterActivity">
+
+    <com.oystersource.utils.view.ActionBar
+        android:id="@+id/mActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:actionTitle="添加生蚝信息" />
+
+    <com.oystersource.utils.view.CustomTitleEditLayout
+        android:id="@+id/mLayoutOysterNum"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:customEdHint="请输入生蚝只数"
+        app:customTitle="生蚝只数" />
+
+    <com.oystersource.utils.view.CustomTitleEditLayout
+        android:id="@+id/mTvType"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:customEdHint="请输入生蚝品种"
+        app:customTitle="生蚝品种" />
+
+    <com.oystersource.utils.view.CustomTitleEditLayout
+        android:id="@+id/mTvState"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:customEdHint="请输入生蚝健康状况"
+        app:customTitle="生蚝健康状况" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp">
+
+        <com.oystersource.utils.view.KKTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:text="图片描述（选填，最多4张）" />
+
+        <com.oystersource.utils.adapter.WrapRecyclerView
+            android:id="@+id/mRecyclerView"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true" />
+
+        <ImageView
+            android:id="@+id/mAddImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/mRecyclerView"
+            android:src="@mipmap/ic_add" />
+    </RelativeLayout>
+
+    <com.oystersource.utils.view.BorderView
+        android:id="@+id/mTvAdd"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        app:borderViewBackgroundColor="@color/theme_color"
+        app:borderViewRadius="9dp"
+        app:borderViewText="确定"
+        app:borderViewTextColor="@color/white"
+        app:borderViewTextSize="17sp" />
+</LinearLayout>

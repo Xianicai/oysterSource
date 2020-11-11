@@ -1,0 +1,50 @@
+
+P
+java:S1874É"4Remove this use of "YCbCr_420_SP"; it is deprecated.(Â…Ìˆøÿÿÿÿ
+I
+java:S1874=".Remove this use of "Camera"; it is deprecated.(Î¬Òúùÿÿÿÿ
+I
+java:S1874w".Remove this use of "Camera"; it is deprecated.(ßÃ€‹üÿÿÿÿ
+[
+java:S1134ƒ"DTake the required action to fix the issue indicated by this comment.(÷Ãž“
+R	java:S125—"<This block of commented-out lines of code should be removed.(‚µÉ²
+K
+java:S1874“"/Remove this use of "release"; it is deprecated.(ÃÏÏûÿÿÿÿ
+N
+java:S1068("3Remove this unused "MIN_FRAME_WIDTH" private field.(ö¬Ä°üÿÿÿÿ
+B
+java:S1068&"'Remove this unused "TAG" private field.(ÉÚì¸øÿÿÿÿ
+K
+java:S1874"4Remove this use of "startPreview"; it is deprecated.(ÌœŒß
+W	java:S125Í"<This block of commented-out lines of code should be removed.(ÇÁºœþÿÿÿÿ
+V
+java:S1874¿":Remove this use of "setPreviewCallback"; it is deprecated.(÷Õêçúÿÿÿÿ
+J
+java:S1874ª"3Remove this use of "stopPreview"; it is deprecated.(Ò„Ø–
+V	java:S125h"<This block of commented-out lines of code should be removed.(‰˜Õªøÿÿÿÿ
+R	java:S125†"<This block of commented-out lines of code should be removed.(èóøŠ
+F
+java:S18743"+Remove this use of "SDK"; it is deprecated.(¬óª´þÿÿÿÿ
+J
+java:S1068)"4Remove this unused "MIN_FRAME_HEIGHT" private field.(ä×Ïà
+]
+java:S1874½"ARemove this use of "setOneShotPreviewCallback"; it is deprecated.(Ýëò·þÿÿÿÿ
+K
+java:S1874Ì"4Remove this use of "YCbCr_422_SP"; it is deprecated.(ŒÉ×â
+Q	java:S125ó"<This block of commented-out lines of code should be removed.(Ä’–\
+W	java:S125¬"<This block of commented-out lines of code should be removed.(¿ß€Ëúÿÿÿÿ
+Q
+java:S1874¨":Remove this use of "setPreviewCallback"; it is deprecated.(–ÌªÂ
+N
+java:S1068*"3Remove this unused "MAX_FRAME_WIDTH" private field.(Ñ©Î þÿÿÿÿ
+G
+java:S1874w",Remove this use of "open"; it is deprecated.(ßÃ€‹üÿÿÿÿ
+R	java:S125„"<This block of commented-out lines of code should be removed.(‚Þë‘
+J
+java:S1068+"4Remove this unused "MAX_FRAME_HEIGHT" private field.(ñ¡Ä„
+T
+java:S1874{"9Remove this use of "setPreviewDisplay"; it is deprecated.(¹”™­üÿÿÿÿ
+A
+java:S1874i"+Remove this use of "SDK"; it is deprecated.(ÄÑè¯
+M
+java:S1874Î"1Remove this use of "autoFocus"; it is deprecated.(ÊŠéŽüÿÿÿÿ

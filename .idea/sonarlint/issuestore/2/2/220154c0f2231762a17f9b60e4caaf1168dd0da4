@@ -1,0 +1,20 @@
+
+X	java:S125|"<This block of commented-out lines of code should be removed.(²öüò8ôÉÆ­Ö.
+P
+java:S1118":Add a private constructor to hide the implicit public one.(„ºˆ
+c
+java:S2184y"ACast one of the operands of this division operation to a "float".(ş¨ùÿÿÿÿ8„çÅ­Ö.
+:
+java:S1640="Convert this Map to an EnumMap.(ıƒË¾ûÿÿÿÿ
+f
+java:S1134{"DTake the required action to fix the issue indicated by this comment.(¸ÈğÔıÿÿÿÿ8ŠŒÇ­Ö.
+^
+java:S2184z"ACast one of the operands of this division operation to a "float".(»’¯µ8„çÅ­Ö.
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ñßß‘ûÿÿÿÿ
+^
+java:S2184z"ACast one of the operands of this division operation to a "float".(»’¯µ8„çÅ­Ö.
+c
+java:S2184y"ACast one of the operands of this division operation to a "float".(ş¨ùÿÿÿÿ8„çÅ­Ö.
+q
+java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(ñßß‘ûÿÿÿÿ

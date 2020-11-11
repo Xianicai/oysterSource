@@ -1,0 +1,9 @@
+
+<	java:S131E""Add a default case to this switch.(Ñ¯áÆÿÿÿÿÿ
+\
+java:S2142y"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+{
+java:S11497"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ÂÞìç
+Q	java:S125G"<This block of commented-out lines of code should be removed.(æ­ô¯
+a
+java:S1874l"KRemove this use of "FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET"; it is deprecated.(ïÆÿ‚

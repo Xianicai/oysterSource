@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/LayoutParent"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/bg_login" />
+
+    <ImageView
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="103dp"
+        android:src="@mipmap/ic_logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="213dp"
+        android:layout_marginRight="35dp"
+        android:orientation="vertical">
+
+        <com.oystersource.utils.view.BorderView
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="20dp"
+            app:borderViewBackgroundColor="#1affffff"
+            app:borderViewRadius="9dp">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="16dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="13dp"
+                android:src="@mipmap/ic_phone_num" />
+
+            <EditText
+                android:id="@+id/mEdPhoneNum"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginLeft="40dp"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="请输入手机号"
+                android:inputType="number"
+                android:maxLength="11"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="16sp" />
+        </com.oystersource.utils.view.BorderView>
+
+        <com.oystersource.utils.view.BorderView
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="20dp"
+            app:borderViewBackgroundColor="#1affffff"
+            app:borderViewRadius="9dp">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="13dp"
+                android:src="@mipmap/ic_password" />
+
+            <EditText
+                android:id="@+id/mEdPassword"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:singleLine="true"
+                android:layout_marginLeft="40dp"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="请输入密码"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:maxLength="11"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="16sp" />
+        </com.oystersource.utils.view.BorderView>
+
+        <com.oystersource.utils.view.BorderView
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="20dp"
+            app:borderViewBackgroundColor="#1affffff"
+            app:borderViewRadius="9dp">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="13dp"
+                android:src="@mipmap/ic_password" />
+
+            <EditText
+                android:id="@+id/mEdConfirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:singleLine="true"
+                android:layout_marginLeft="40dp"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:imeOptions="actionNext"
+                android:hint="请确认密码"
+                android:inputType="textPassword"
+                android:maxLength="11"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="16sp" />
+        </com.oystersource.utils.view.BorderView>
+
+        <com.oystersource.utils.view.BorderView
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="20dp"
+            app:borderViewBackgroundColor="#1affffff"
+            app:borderViewRadius="9dp">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="13dp"
+                android:src="@mipmap/ic_name" />
+
+            <EditText
+                android:id="@+id/mEdName"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginLeft="40dp"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="请输入您的姓名昵称"
+                android:maxLength="11"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="16sp" />
+        </com.oystersource.utils.view.BorderView>
+
+        <com.oystersource.utils.view.BorderView
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="20dp"
+            app:borderViewBackgroundColor="#1affffff"
+            app:borderViewRadius="9dp">
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="15dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="13dp"
+                android:src="@mipmap/ic_role" />
+
+            <EditText
+                android:id="@+id/mEdType"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginLeft="40dp"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="巡检人员"
+                android:singleLine="true"
+                android:inputType="text"
+                android:imeOptions="actionDone"
+                android:maxLength="11"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="16sp" />
+        </com.oystersource.utils.view.BorderView>
+
+        <com.oystersource.utils.view.BorderView
+            android:id="@+id/mTvRegister"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            app:borderViewBackgroundColor="@color/theme_color"
+            app:borderViewRadius="9dp"
+            app:borderViewText="注册"
+            app:borderViewTextColor="@color/white"
+            app:borderViewTextSize="17sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="13dp"
+            android:drawablePadding="6dp"
+            android:drawableLeft="@mipmap/ic_agreement_register"
+            android:text="我已同意生蚝追溯的使用条款和隐私政策"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

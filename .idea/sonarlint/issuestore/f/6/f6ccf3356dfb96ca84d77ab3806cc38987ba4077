@@ -1,0 +1,9 @@
+
+F
+java:S1874?"0Remove this use of "getWidth"; it is deprecated.(¸ÛÅ¤
+i
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Àİì
+C
+java:S1068"(Remove this unused "mTag" private field.(»˜¢–ıÿÿÿÿ
+F
+java:S1068%"+Remove this unused "mBtnNum" private field.(øğ˜ºûÿÿÿÿ

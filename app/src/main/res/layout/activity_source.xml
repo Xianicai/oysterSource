@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".home.view.AddOysterActivity">
+
+    <com.oystersource.utils.view.ActionBar
+        android:id="@+id/mActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:actionTitle="溯源信息" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.oystersource.utils.view.CustomTitleEditLayout
+                android:id="@+id/mLayoutNum"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:customEdHint="请输入生蚝只数"
+                app:customTitle="序号" />
+
+            <com.oystersource.utils.view.CustomTitleEditLayout
+                android:id="@+id/mLayoutLabel"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:customEdHint="请输入标签号"
+                app:customTitle="标签号" />
+
+            <com.oystersource.utils.view.CustomTitleEditLayout
+                android:id="@+id/mLayoutMap"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:customEdHint="直接获取位置信息"
+                app:customTitle="位置信息" />
+
+            <com.amap.api.maps.MapView
+                android:id="@+id/mMapView"
+                android:layout_width="match_parent"
+                android:layout_height="220dp" />
+
+            <TextView
+                android:paddingLeft="20dp"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="溯源信息" />
+
+            <com.oystersource.utils.adapter.WrapRecyclerView
+                android:id="@+id/mRecyclerView"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
+

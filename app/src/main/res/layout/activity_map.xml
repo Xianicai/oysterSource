@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.view.MapActivity">
+
+    <com.oystersource.utils.view.ActionBar
+        android:id="@+id/mActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        app:actionTitle="地址定位" />
+
+    <com.amap.api.maps.MapView
+        android:id="@+id/mMapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mActionBar" />
+
+    <com.oystersource.utils.view.BorderView
+        android:id="@+id/mLayoutEd"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/mActionBar"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        app:borderViewBackgroundColor="@color/white"
+        app:borderViewRounded="true">
+
+        <EditText
+            android:id="@+id/mEdSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/mImageDelete"
+            android:layout_width="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="45dp"
+            android:visibility="gone"
+            android:src="@mipmap/ic_search_delete"
+            android:layout_height="15dp"/>
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/ic_search" />
+    </com.oystersource.utils.view.BorderView>
+
+    <com.oystersource.utils.view.BorderView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mLayoutEd"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        app:borderViewBackgroundColor="@color/white"
+        app:borderViewRadius="8dp">
+
+        <com.oystersource.utils.adapter.WrapRecyclerView
+            android:id="@+id/mRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.oystersource.utils.view.BorderView>
+
+</RelativeLayout>

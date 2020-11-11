@@ -1,0 +1,37 @@
+
+j
+java:S2095†"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(†ÿ­×üÿÿÿÿ
+j
+java:S2095¤"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(•ı­šıÿÿÿÿ
+c
+java:S1192Û"LDefine a constant instead of duplicating this literal "getCacheDir" 3 times.(ÑıŒÉ
+\
+java:S1192"FDefine a constant instead of duplicating this literal "UTF-8" 3 times.(•¯·
+[	java:S112."FDefine and throw a dedicated exception instead of using a generic one.(Çâ°Ô
+[	java:S1120"FDefine and throw a dedicated exception instead of using a generic one.(Ñøı­
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(œ÷ªÁÿÿÿÿÿ
+`	java:S112j"FDefine and throw a dedicated exception instead of using a generic one.(ÛÏ· ùÿÿÿÿ
+[	java:S112I"FDefine and throw a dedicated exception instead of using a generic one.(ğ—ú­
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ÷ªÁÿÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ÷ªÁÿÿÿÿÿ
+f	java:S117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úÉğÙ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö˜¼”
+l	java:S117™"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üß¦âÿÿÿÿÿ
+l	java:S117¨"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µœŸÿıÿÿÿÿ
+l	java:S117­"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹êÄ³úÿÿÿÿ
+l	java:S117¹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üğƒ«üÿÿÿÿ
+l	java:S117¹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üğƒ«üÿÿÿÿ
+l	java:S117Ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë¥¹´şÿÿÿÿ
+z
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ı©¢ëùÿÿÿÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(Ó™€¸ÿÿÿÿÿ
+E
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+E
+java:S2093\"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+Z
+java:S1874ï"CRemove this use of "getExternalStorageDirectory"; it is deprecated.(ªëì„
+F
+java:S2093„"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+?	java:S108§")Either remove or fill this block of code.(å¥‡

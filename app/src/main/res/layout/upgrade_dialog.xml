@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_centerInParent="true"
+              android:gravity="center"
+              android:background="#80000000"
+              android:orientation="vertical">
+    <com.oystersource.utils.view.BorderView
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="40dp"
+            android:layout_height="wrap_content"
+            app:borderViewBackgroundColor="@color/white"
+            app:borderViewRadius="10dp">
+        <TextView android:layout_width="0dp"
+                  android:tag="beta_upgrade_info"
+                  android:layout_height="0dp"/>
+        <ImageView
+                android:id="@+id/image_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_updata_app_head"/>
+        <TextView
+                android:id="@+id/mTvVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:tag="beta_title"
+                android:textColor="@color/black"
+                android:text="发现新版本(V1.1.2)"
+                android:layout_marginVertical="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@+id/image_top"/>
+        <TextView
+                android:id="@+id/mTvContent"
+                android:layout_width="match_parent"
+                android:tag="beta_upgrade_feature"
+                android:paddingHorizontal="18dp"
+                android:text="1.新版本更新文案，修复重大重大重大重大bug，增加增加增加增加增加增加增加很好的功能～；2.优化一些体验和性能；3.还有更新更好的体验。"
+                android:textSize="13sp"
+                android:textColor="@color/black"
+                android:layout_below="@+id/mTvVersion"
+                android:layout_height="wrap_content"/>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:layout_below="@+id/mTvContent"
+                      android:layout_marginTop="32dp"
+                      android:layout_marginBottom="30dp">
+            <ProgressBar
+                    android:id="@+id/mProgressBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:max="100"
+                    android:visibility="gone"
+                    android:layout_marginBottom="34dp"
+                    android:layout_marginHorizontal="15dp"/>
+            <com.oystersource.utils.view.BorderView
+                    android:id="@+id/start"
+                    android:layout_width="125dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    app:borderViewRounded="true"
+                    app:borderViewBackgroundColor="@color/color_F2B643">
+                <TextView android:layout_width="match_parent"
+                          android:tag="beta_confirm_button"
+                          android:textColor="@color/white"
+                          android:gravity="center"
+                          android:text="立即更新"
+                          android:layout_centerInParent="true"
+                          android:textSize="16sp"
+
+                          android:layout_height="match_parent"/>
+            </com.oystersource.utils.view.BorderView>
+        </LinearLayout>
+
+
+    </com.oystersource.utils.view.BorderView>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:drawableLeft="@mipmap/ic_cancel_updata"
+              android:layout_marginTop="40dp"
+              android:tag="beta_cancel_button"/>
+
+</LinearLayout>

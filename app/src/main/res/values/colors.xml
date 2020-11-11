@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#ffffff</color>
+
+    //20%透明度
+    <!-- LinearDividerLayout分割线 -->
+
+    <!-- 首页分类默认颜色值 -->
+    <!-- 基础的颜色 -->
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <!--红包的字体颜色-->
+
+    <!-- 用于主要文字、名称、标题重要信息文字 -->
+    <!-- 用于辅助次要文字 -->
+    <!-- 用于次要文字，如介绍、日期等 -->
+    <!-- 用于说明文字等 -->
+    <!-- 用于链接文字等 -->
+
+    <!-- 警告用的字体颜色 -->
+
+    <!-- 通用的背景色 -->
+    <color name="common_background">#f2f2f2</color>
+    <color name="theme_color">#487EFC</color>
+    <color name="action_bar_color">#3366ff</color>
+
+
+    <color name="color_333333">#333333</color>
+    <color name="color_F2B643">#F2B643</color>
+    <color name="color_EDA835">#EDA835</color>
+    <color name="color_EEEEEE">#EEEEEE</color>
+    <color name="color_DDC899">#DDC899</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_C09C60">#C09C60</color>
+    <color name="color_BCBCBC">#BCBCBC</color>
+    <color name="color_999999">#ff999999</color>
+    <color name="color_F5F5F5">#F5F5F5</color>
+
+    <!-- QRCode scanner color begin -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#B0000000</color>
+    <color name="viewfinder_frame">#00FFFFFF</color>
+    <color name="result_point_color">#C0FFFF00</color>
+    <color name="laser_color">#EDA835</color>
+    <color name="corner_color">#FFFFFFFF</color>
+    <!-- QRCode scanner color end -->
+</resources>

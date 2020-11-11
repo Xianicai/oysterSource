@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.savegoldmaster.utils.view.BorderView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="245dp"
+        android:gravity="center"
+        app:borderViewRadius="150dp"
+        android:layout_gravity="center"
+        android:layout_height="300dp"
+        app:borderViewBackgroundColor="@color/white">
+
+
+    <TextView
+            android:id="@+id/mTvTitle"
+            tools:text="提示"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:includeFontPadding="false"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:id="@+id/mLayoutQR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_below="@+id/mTvTitle"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/color_333333"
+            tools:text="是否找回密码？"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_alignParentBottom="true">
+        <View android:id="@+id/view"
+              android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:layout_alignParentBottom="true"
+              android:background="@color/color_EEEEEE"/>
+        <LinearLayout
+                android:id="@+id/mDoubleLayout"
+                android:layout_width="match_parent"
+                      android:layout_height="44dp"
+                      android:layout_alignBottom="@+id/view">
+            <TextView
+                    android:id="@+id/mTvLeft"
+                    tools:text="取消"
+                    android:textColor="@color/color_666666"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:includeFontPadding="false"
+                    android:layout_height="match_parent"/>
+            <View android:layout_width="1dp"
+                  android:background="@color/color_EEEEEE"
+                  android:layout_height="match_parent"/>
+            <TextView
+                    android:id="@+id/mTvRight"
+                    tools:text="前往"
+                    android:textColor="#EDA835"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+
+                    android:includeFontPadding="false"
+                    android:layout_height="match_parent"/>
+        </LinearLayout>
+
+            <TextView
+                    android:id="@+id/mTvIKnow"
+                    android:text="我知道了"
+                    android:textColor="#EDA835"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:includeFontPadding="false"
+                    android:layout_height="44dp"/>
+
+    </LinearLayout>
+
+</com.savegoldmaster.utils.view.BorderView>

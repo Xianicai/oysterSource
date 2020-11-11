@@ -1,0 +1,66 @@
+
+b
+java:S1192Ÿ"KDefine a constant instead of duplicating this literal "yyyy.MM.dd" 3 times.(‡±Å½
+j
+java:S1192Ì"NUse already-defined constant 'DF_HH_MM' instead of duplicating its value here.(¢Š©†üÿÿÿÿ
+u
+java:S1192Ã"YUse already-defined constant 'DF_YYYY_MM_DD_HH_MM' instead of duplicating its value here.(çôÓ©ûÿÿÿÿ
+x
+java:S1192ƒ"\Use already-defined constant 'DF_YYYY_MM_DD_HH_MM_SS' instead of duplicating its value here.(–ä·ùÿÿÿÿ
+h
+java:S1192×"QUse already-defined constant 'DF_HH_MM_SS' instead of duplicating its value here.(–ğÖÊ
+o
+java:S1192‘"SUse already-defined constant 'DF_YYYY_MM_DD' instead of duplicating its value here.(’á¨ãşÿÿÿÿ
+a
+java:S2184("FCast one of the operands of this multiplication operation to a "long".(±¸¤ëÿÿÿÿÿ
+l	java:S117ß"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï¹ÌËşÿÿÿÿ
+l	java:S117ß"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï¹ÌËşÿÿÿÿ
+y
+java:S1488×"bImmediately return this expression instead of assigning it to the temporary variable "systemTime".(’ßÀ™
+}
+java:S1488…"aImmediately return this expression instead of assigning it to the temporary variable "strtodate".(Û¥š«ùÿÿÿÿ
+}
+java:S1488“"aImmediately return this expression instead of assigning it to the temporary variable "strtodate".(Û¥š«ùÿÿÿÿ
+}
+java:S1488¡"aImmediately return this expression instead of assigning it to the temporary variable "strtodate".(Û¥š«ùÿÿÿÿ
+y
+java:S1488¨"bImmediately return this expression instead of assigning it to the temporary variable "dateString".(¼ºÊÀ
+w
+java:S1488¡"[Immediately return this expression instead of assigning it to the temporary variable "str".(Ûí¢†ÿÿÿÿÿ
+œ
+java:S1186/"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(šØâ»ùÿÿÿÿ
+t	java:S115("ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(±¸¤ëÿÿÿÿÿ
+o	java:S115)"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(éÂ°
+t	java:S115*"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(î¿–çûÿÿÿÿ
+o	java:S115+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(òà¹ğ
+t	java:S115,"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(çÉïĞøÿÿÿÿ
+ˆ
+java:S1845"lRename method "DateToStr" to prevent any misunderstanding/clash with method "dateToStr" defined on line 294.(¿³÷Êûÿÿÿÿ
+ˆ
+java:S1845¬"lRename method "StrToDate" to prevent any misunderstanding/clash with method "strToDate" defined on line 272.(ËÔÿşÿÿÿÿ
+8
+java:S1118/"Hide this public constructor.(šØâ»ùÿÿÿÿ
+9
+java:S2885"#Make "format" an instance variable.(öŠËÍ
+`
+java:S1124("EReorder the modifiers to comply with the Java Language Specification.(±¸¤ëÿÿÿÿÿ
+[
+java:S1124)"EReorder the modifiers to comply with the Java Language Specification.(éÂ°
+`
+java:S1124*"EReorder the modifiers to comply with the Java Language Specification.(î¿–çûÿÿÿÿ
+[
+java:S1124+"EReorder the modifiers to comply with the Java Language Specification.(òà¹ğ
+`
+java:S1124,"EReorder the modifiers to comply with the Java Language Specification.(çÉïĞøÿÿÿÿ
+D	java:S108‰")Either remove or fill this block of code.(âÃƒŠıÿÿÿÿ
+O	java:S106©"9Replace this use of System.out or System.err by a logger.(¥—¶Î
+i	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿³÷Êûÿÿÿÿ
+i	java:S100¬"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËÔÿşÿÿÿÿ
+c	java:S100¿"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î¾®v
+>
+java:S1659å""Declare "day2" on a separate line.(æÎó«ùÿÿÿÿ
+]
+java:S1126ï"AReplace this if-then-else statement by a single return statement.(‰ˆ¾Øúÿÿÿÿ
+=
+java:S1110¸"!Remove these useless parentheses.(Å÷–ùÿÿÿÿ
+i	java:S100ß"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï¹ÌËşÿÿÿÿ

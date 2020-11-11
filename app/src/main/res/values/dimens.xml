@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fixed_height">49dp</dimen>
+    <dimen name="fixed_label_active">12sp</dimen>
+    <dimen name="fixed_label_inactive">12sp</dimen>
+    <dimen name="fixed_icon_grid">22dp</dimen>
+    //调整图片到文字的距离
+    <dimen name="fixed_height_bottom_padding">-2dp</dimen>
+    <dimen name="fixed_height_top_padding_inactive">4dp</dimen>
+    <item format="float" name="fixed_label_active_to_inactive_ratio" type="dimen">1</item>
+    <dimen name="fixed_icon_badge_grid_height">40dp</dimen>
+    <!--<dimen name="fixed_height_top_padding_active">5dp </dimen>-->
+    <!--<dimen name="bottom_navigation_height">56dp</dimen>-->
+    <!--<dimen name="bottom_navigation_padded_height">56dp</dimen>-->
+</resources>
